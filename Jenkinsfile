@@ -3,11 +3,11 @@ pipeline
   agent any
   stages
   {
-    stage
+    stage('i am craeting one director')
     {
       steps
       {
-        sh 'mkdir united'
+        sh ' mkdir united '
       }
     }
   }
