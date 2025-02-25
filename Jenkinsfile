@@ -5,7 +5,7 @@ pipeline
   {
     stage
     {
-      step
+      steps
       {
         sh 'mkdir united'
       }
